@@ -15,4 +15,4 @@ soundsc(y,44100)
 
 audiowrite('melody.wav',y, 44100);
 clear g 44100;
-y=audioread('melody.wav');
+z=audioread('melody.wav');
