@@ -1,8 +1,8 @@
-Y = fft(y);
-plot(abs(Y))
+Z = fft(z);
+plot(abs(Z))
 
 N = 44100 
-transform = fft(y,N)/N;
+transform = fft(z,N)/N;
 magTransform = abs(transform);
 
 faxis = linspace(-fs/2,fs/2,N);
